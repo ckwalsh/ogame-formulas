@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "lib": ["es6"],
+      "outDir": "./build",
+      "strictNullChecks": true
+    },
+    "include": [
+        "lib/**/*"
+    ],
+    "typedocOptions": {
+      "mode": "file",
+      "out": "docs",
+      "target": "es6"
+    }
+}
