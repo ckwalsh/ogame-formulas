@@ -10,6 +10,7 @@
     "typedocOptions": {
       "mode": "file",
       "out": "docs",
-      "target": "es6"
+      "target": "es6",
+      "theme": "minimal"
     }
 }
