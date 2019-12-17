@@ -1,4 +1,5 @@
 import {
+  AssetType,
   Ship,
   ShipCategory,
   ShipCargo,
@@ -12,7 +13,7 @@ import {
 
 const LIGHT_FIGHTER: Readonly<Ship> = {
   id: 204,
-  type: "SHIP",
+  type: AssetType.Ship,
   name: "Light Fighter",
   combat: true,
   metal: 3000,
@@ -25,7 +26,7 @@ const LIGHT_FIGHTER: Readonly<Ship> = {
 };
 const HEAVY_FIGHTER: Readonly<Ship> = {
   id: 205,
-  type: "SHIP",
+  type: AssetType.Ship,
   name: "Heavy Fighter",
   combat: true,
   metal: 6000,
@@ -38,7 +39,7 @@ const HEAVY_FIGHTER: Readonly<Ship> = {
 };
 const CRUISER: Readonly<Ship> = {
   id: 206,
-  type: "SHIP",
+  type: AssetType.Ship,
   name: "Cruiser",
   combat: true,
   metal: 20000,
@@ -51,7 +52,7 @@ const CRUISER: Readonly<Ship> = {
 };
 const BATTLESHIP: Readonly<Ship> = {
   id: 207,
-  type: "SHIP",
+  type: AssetType.Ship,
   name: "Battleship",
   combat: true,
   metal: 45000,
@@ -64,7 +65,7 @@ const BATTLESHIP: Readonly<Ship> = {
 };
 const BATTLECRUISER: Readonly<Ship> = {
   id: 215,
-  type: "SHIP",
+  type: AssetType.Ship,
   name: "Battlecruiser",
   combat: true,
   metal: 30000,
@@ -77,7 +78,7 @@ const BATTLECRUISER: Readonly<Ship> = {
 };
 const BOMBER: Readonly<Ship> = {
   id: 211,
-  type: "SHIP",
+  type: AssetType.Ship,
   name: "Bomber",
   combat: true,
   metal: 50000,
@@ -91,7 +92,7 @@ const BOMBER: Readonly<Ship> = {
 };
 const DESTROYER: Readonly<Ship> = {
   id: 213,
-  type: "SHIP",
+  type: AssetType.Ship,
   name: "Destroyer",
   combat: true,
   metal: 60000,
@@ -104,7 +105,7 @@ const DESTROYER: Readonly<Ship> = {
 };
 const DEATHSTAR: Readonly<Ship> = {
   id: 214,
-  type: "SHIP",
+  type: AssetType.Ship,
   name: "Deathstar",
   combat: true,
   metal: 5000000,
@@ -117,7 +118,7 @@ const DEATHSTAR: Readonly<Ship> = {
 };
 const REAPER: Readonly<Ship> = {
   id: 218,
-  type: "SHIP",
+  type: AssetType.Ship,
   name: "Reaper",
   combat: true,
   metal: 85000,
@@ -130,7 +131,7 @@ const REAPER: Readonly<Ship> = {
 };
 const PATHFINDER: Readonly<Ship> = {
   id: 219,
-  type: "SHIP",
+  type: AssetType.Ship,
   name: "Pathfinder",
   combat: true,
   metal: 8000,
@@ -143,7 +144,7 @@ const PATHFINDER: Readonly<Ship> = {
 };
 const SMALL_CARGO: Readonly<Ship> = {
   id: 202,
-  type: "SHIP",
+  type: AssetType.Ship,
   name: "Small Cargo",
   transport: true,
   metal: 2000,
@@ -157,7 +158,7 @@ const SMALL_CARGO: Readonly<Ship> = {
 };
 const LARGE_CARGO: Readonly<Ship> = {
   id: 203,
-  type: "SHIP",
+  type: AssetType.Ship,
   name: "Large Cargo",
   transport: true,
   metal: 6000,
@@ -170,7 +171,7 @@ const LARGE_CARGO: Readonly<Ship> = {
 };
 const COLONY_SHIP: Readonly<Ship> = {
   id: 208,
-  type: "SHIP",
+  type: AssetType.Ship,
   name: "Colony Ship",
   metal: 10000,
   crystal: 20000,
@@ -182,7 +183,7 @@ const COLONY_SHIP: Readonly<Ship> = {
 };
 const RECYCLER: Readonly<Ship> = {
   id: 209,
-  type: "SHIP",
+  type: AssetType.Ship,
   name: "Recycler",
   recycler: true,
   metal: 10000,
@@ -197,7 +198,7 @@ const RECYCLER: Readonly<Ship> = {
 };
 const ESPIONAGE_PROBE: Readonly<Ship> = {
   id: 210,
-  type: "SHIP",
+  type: AssetType.Ship,
   name: "Espionage Probe",
   espionageProbe: true,
   metal: 0,
@@ -210,7 +211,7 @@ const ESPIONAGE_PROBE: Readonly<Ship> = {
 };
 const SOLAR_SATELLITE: Readonly<Ship> = {
   id: 212,
-  type: "SHIP",
+  type: AssetType.Ship,
   name: "Solar Satellite",
   immobile: true,
   metal: 0,
@@ -222,7 +223,7 @@ const SOLAR_SATELLITE: Readonly<Ship> = {
 };
 const CRAWLER: Readonly<Ship> = {
   id: 217,
-  type: "SHIP",
+  type: AssetType.Ship,
   name: "Crawler",
   immobile: true,
   metal: 2000,

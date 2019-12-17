@@ -1,11 +1,23 @@
-interface ShipBase {
-  id: number;
-  type: 'SHIP';
-  name: string;
+export enum AssetType {
+  Ship = 'Ship',
+}
+
+export interface AssetWithType {
+  type: AssetType;
+}
+
+export interface AssetCost {
   metal: number;
   crystal: number;
   deuterium: number;
   energy?: number;
+  levelMultiplier?: number;
+}
+
+interface ShipBase {
+  id: number;
+  type: AssetType.Ship;
+  name: string;
   shieldBase: number;
   weaponBase: number;
   rapidfire?: Map<number, number>;
@@ -35,7 +47,7 @@ export interface ShipCargo {
   cargoBase: number;
 }
 
-export type Ship = ShipBase & ShipCategory & ShipDrive & ShipCargo;
+export type Ship = AssetWithType & AssetCost & ShipBase & ShipCategory & ShipDrive & ShipCargo;
 
 interface Defense {
   type: 'DEFENSE';
