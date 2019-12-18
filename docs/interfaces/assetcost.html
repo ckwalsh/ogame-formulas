@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>ShipDrive | ogame-formulas</title>
+	<title>AssetCost | ogame-formulas</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style type="text/css">/*! normalize.css v1.1.3 | MIT License | git.io/normalize */
@@ -2381,8 +2381,25 @@ img {
 		<li class=" tsd-kind-class">
 			<a href="../classes/ships.html" class="tsd-kind-icon">Ships</a>
 		</li>
-		<li class=" tsd-kind-interface">
+		<li class="current tsd-kind-interface">
 			<a href="assetcost.html" class="tsd-kind-icon">Asset<wbr>Cost</a>
+			<ul>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="assetcost.html#crystal" class="tsd-kind-icon">crystal</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="assetcost.html#deuterium" class="tsd-kind-icon">deuterium</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="assetcost.html#energy" class="tsd-kind-icon">energy</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="assetcost.html#levelmultiplier" class="tsd-kind-icon">level<wbr>Multiplier</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="assetcost.html#metal" class="tsd-kind-icon">metal</a>
+				</li>
+			</ul>
 		</li>
 		<li class=" tsd-kind-interface">
 			<a href="assetwithtype.html" class="tsd-kind-icon">Asset<wbr>With<wbr>Type</a>
@@ -2411,19 +2428,8 @@ img {
 		<li class=" tsd-kind-interface">
 			<a href="shipcategory.html" class="tsd-kind-icon">Ship<wbr>Category</a>
 		</li>
-		<li class="current tsd-kind-interface">
+		<li class=" tsd-kind-interface">
 			<a href="shipdrive.html" class="tsd-kind-icon">Ship<wbr>Drive</a>
-			<ul>
-				<li class=" tsd-kind-property tsd-parent-kind-interface">
-					<a href="shipdrive.html#combustiondrive" class="tsd-kind-icon">combustion<wbr>Drive</a>
-				</li>
-				<li class=" tsd-kind-property tsd-parent-kind-interface">
-					<a href="shipdrive.html#hyperspacedrive" class="tsd-kind-icon">hyperspace<wbr>Drive</a>
-				</li>
-				<li class=" tsd-kind-property tsd-parent-kind-interface">
-					<a href="shipdrive.html#impulsedrive" class="tsd-kind-icon">impulse<wbr>Drive</a>
-				</li>
-			</ul>
 		</li>
 		<li class=" tsd-kind-interface">
 			<a href="shipdrivebase.html" class="tsd-kind-icon">Ship<wbr>Drive<wbr>Base</a>
@@ -2445,7 +2451,7 @@ img {
 			<h3>Hierarchy</h3>
 			<ul class="tsd-hierarchy">
 				<li>
-					<span class="target">ShipDrive</span>
+					<span class="target">AssetCost</span>
 				</li>
 			</ul>
 		</section>
@@ -2456,9 +2462,11 @@ img {
 					<section class="tsd-index-section ">
 						<h3>Properties</h3>
 						<ul class="tsd-index-list">
-							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="shipdrive.html#combustiondrive" class="tsd-kind-icon">combustion<wbr>Drive</a></li>
-							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="shipdrive.html#hyperspacedrive" class="tsd-kind-icon">hyperspace<wbr>Drive</a></li>
-							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="shipdrive.html#impulsedrive" class="tsd-kind-icon">impulse<wbr>Drive</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="assetcost.html#crystal" class="tsd-kind-icon">crystal</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="assetcost.html#deuterium" class="tsd-kind-icon">deuterium</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="assetcost.html#energy" class="tsd-kind-icon">energy</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="assetcost.html#levelmultiplier" class="tsd-kind-icon">level<wbr>Multiplier</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="assetcost.html#metal" class="tsd-kind-icon">metal</a></li>
 						</ul>
 					</section>
 				</div>
@@ -2467,32 +2475,52 @@ img {
 		<section class="tsd-panel-group tsd-member-group ">
 			<h2>Properties</h2>
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-				<a name="combustiondrive" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagOptional">Optional</span> combustion<wbr>Drive</h3>
-				<div class="tsd-signature tsd-kind-icon">combustion<wbr>Drive<span class="tsd-signature-symbol">:</span> <a href="shipdrivebase.html" class="tsd-signature-type">ShipDriveBase</a></div>
+				<a name="crystal" class="tsd-anchor"></a>
+				<h3>crystal</h3>
+				<div class="tsd-signature tsd-kind-icon">crystal<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/ckwalsh/ogame-formulas/blob/c233ce3/lib/if.ts#L41">if.ts:41</a></li>
+						<li>Defined in <a href="https://github.com/ckwalsh/ogame-formulas/blob/c233ce3/lib/if.ts#L11">if.ts:11</a></li>
 					</ul>
 				</aside>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-				<a name="hyperspacedrive" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagOptional">Optional</span> hyperspace<wbr>Drive</h3>
-				<div class="tsd-signature tsd-kind-icon">hyperspace<wbr>Drive<span class="tsd-signature-symbol">:</span> <a href="shipdrivebase.html" class="tsd-signature-type">ShipDriveBase</a></div>
+				<a name="deuterium" class="tsd-anchor"></a>
+				<h3>deuterium</h3>
+				<div class="tsd-signature tsd-kind-icon">deuterium<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/ckwalsh/ogame-formulas/blob/c233ce3/lib/if.ts#L43">if.ts:43</a></li>
+						<li>Defined in <a href="https://github.com/ckwalsh/ogame-formulas/blob/c233ce3/lib/if.ts#L12">if.ts:12</a></li>
 					</ul>
 				</aside>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-				<a name="impulsedrive" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagOptional">Optional</span> impulse<wbr>Drive</h3>
-				<div class="tsd-signature tsd-kind-icon">impulse<wbr>Drive<span class="tsd-signature-symbol">:</span> <a href="shipdrivebase.html" class="tsd-signature-type">ShipDriveBase</a></div>
+				<a name="energy" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> energy</h3>
+				<div class="tsd-signature tsd-kind-icon">energy<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/ckwalsh/ogame-formulas/blob/c233ce3/lib/if.ts#L42">if.ts:42</a></li>
+						<li>Defined in <a href="https://github.com/ckwalsh/ogame-formulas/blob/c233ce3/lib/if.ts#L13">if.ts:13</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="levelmultiplier" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> level<wbr>Multiplier</h3>
+				<div class="tsd-signature tsd-kind-icon">level<wbr>Multiplier<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/ckwalsh/ogame-formulas/blob/c233ce3/lib/if.ts#L14">if.ts:14</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="metal" class="tsd-anchor"></a>
+				<h3>metal</h3>
+				<div class="tsd-signature tsd-kind-icon">metal<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/ckwalsh/ogame-formulas/blob/c233ce3/lib/if.ts#L10">if.ts:10</a></li>
 					</ul>
 				</aside>
 			</section>
